@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+/*  =========================== navigation =========================== */
+.navbar {
+  margin: 1vw 1vw;
+}
+
+.navbar-brand {
+  color: #29402c !important;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 5px 15px;
+}
+
+.nav-link {
+  color: #29402c !important;
+  font-weight: 900;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: white !important;
+  background-color: #c5c5ad;
+}
+
+/*  =========================== end navigation =========================== */
+
+/*  =========================== banner =========================== */
+
+.banner {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.banner-caption {
+  text-transform: uppercase;
+  background-color: white;
+  color: #29402c;
+  position: absolute;
+  top: 40%;
+  margin: 2rem;
+  padding: 3rem;
+}
+
+.banner-caption:hover {
+  background-color: #c5c5ad;
+  color: white;
+}
+
+hr {
+  width: 50%;
+  border-top: 3px solid rgb(20, 18, 31);
+  position: relative;
+  left: 25%;
+}
+/*  =========================== end banner =========================== */
+
+/*  ===========================  about =========================== */
+.about {
+  padding: 2vw 3vw 4vw 3vw;
+  background-color: #c5c5ad;
+  text-align: center;
+}
+
+.about-title {
+  margin: auto;
+  width: 100%;
+  padding: 3rem 0vw;
+  color: white;
+}
+
+.row {
+  margin-top: 3vw;
+}
+
+.about-img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.about-para {
+  font-size: 20px;
+  text-align: left;
+  margin: 0vw 3vw;
+  color: #29402c;
+}
+
+/*  =========================== end about =========================== */
+
+/*  ===========================  explore =========================== */
+.explore {
+  background-color: white;
+  text-align: center;
+  padding: 2vw 3vw 4vw 3vw;
+}
+
+.explore-title {
+  margin: auto;
+  width: 100%;
+  padding: 3rem 0vw;
+  color: #29402c;
+}
+
+.explore-img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.explore-img:hover {
+  filter: none;
+}
+
+.caption {
+  margin: auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+/*  =========================== end explore =========================== */
+
+/*  ===========================  destination =========================== */
+.destination {
+  text-align: center;
+  padding: 2vw 3vw 4vw 3vw;
+  width: 100%;
+  background: url("../img/bg2.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.destination-title {
+  margin: auto;
+  width: 100%;
+  padding: 3rem 0vw;
+  color: #ffffff;
+}
+
+.destination hr {
+  width: 50%;
+  border-top: 3px solid rgb(255, 255, 255);
+  position: relative;
+  left: 25%;
+  opacity: 1;
+}
+
+.destination-caption {
+  padding: 0px 20px 20px 20px;
+  color: white;
+  background: rgba(55, 73, 63, 0.16);
+}
+
+.btn {
+  border-radius: 0px;
+  width: 11rem;
+}
+
+/*  =========================== end destination =========================== */
+
+/*  =========================== contact =========================== */
+.contact {
+  padding: 2vw 3vw 4vw 3vw;
+  width: 100%;
+  background-color: #29402c;
+}
+
+.contact h1 {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 3rem 0vw;
+  color: #ffffff;
+}
+
+.contact hr {
+  width: 50%;
+  border-top: 3px solid rgb(255, 255, 255);
+  position: relative;
+  left: 25%;
+  opacity: 1;
+}
+
+.contact-form {
+  padding: 1vw 0vw;
+  margin: 1vw 3vw;
+}
+
+.contact-img {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.2) 0px 3px 6px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0px;
+  background-color: #c5c5ad;
+  color: #29402c;
+}
+
+/*  =========================== end contact =========================== */
+
+/*  =========================== footer =========================== */
+
+footer {
+  background-color: #29402c;
+  color: #c5c5ad;
+  text-align: center;
+  padding: 1.5vw 0;
+  font-size: 18px;
+}
+/*  =========================== end footer =========================== */
+
+@media only screen and (max-width: 768px) {
+  .banner-caption {
+    text-transform: uppercase;
+    background-color: white;
+    color: #29402c;
+    position: absolute;
+    top: 40%;
+    margin: 2vw;
+    padding: 3vw;
+  }
+
+  .banner-caption h1 {
+    font-size: 15px;
+  }
+
+  .banner-caption p {
+    font-size: 8px;
+  }
+}
